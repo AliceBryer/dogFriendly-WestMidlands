@@ -68,12 +68,13 @@ html {
 .text-paragraph {
   font-size: 2rem;
   font-family: "Heebo", sans-serif;
+  font-weight: 500;
 }
 
 /* Links section on homepage */
 
 .section-links {
-  height: 300px;
+  height: 250px;
   background-color: var(--metallic-seaweed);
 }
 
@@ -86,20 +87,41 @@ html {
 
 .link {
   font-family: "Heebo", sans-serif;
-  border: 0.5rem var(--brick-red) solid;
+  border: 0.5rem var(--sunray) solid;
   border-radius: 20px;
   margin: 20px;
+  margin-top: px;
   padding: 20px;
   width: 20rem;
   height: 5rem;
   font-size: 2rem;
   background-color: var(--indigo-dye);
-  color: white;
   text-align: center;
+}
+
+.page-link {
+  color: white;
+  text-decoration: none;
 }
 
 .link-container i {
   color: white;
   margin-right: 2rem;
   font-size: 4rem;
+}
+
+/* footer styling */
+
+.footer {
+  height: 40px;
+  background-color: var(--sunray);
+}
+
+.footer p {
+  text-align: center;
+  color: var(--indigo-dye);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: "Heebo", sans-serif;
 }
