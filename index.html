@@ -7,9 +7,17 @@
     <title>Dog Friendly West Midlands</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
@@ -17,9 +25,9 @@
     <!--NavBar/Header-->
     <div class="navigation">
       <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact Murphy</a>
+      <a href="./about.html" target="_blank">About</a>
+      <a href="./gallery.html" target="_blank">Gallery</a>
+      <a href="./contact.html" target="_blank">Contact Murphy</a>
     </div>
     <!--Hero/Banner-->
     <div class="hero-image">
@@ -34,10 +42,28 @@
     </div>
     <!--Section w/links-->
     <section class="section-links">
-      <div><button class="link-button">Eating Out</button></div>
-      <div><button class="link-button">Days Out</button></div>
-      <div><button class="link-button">Social Events</button></div>
-      <div><button class="link-button">Holidays</button></div>
+      <div class="link-container">
+        <div class="link">
+          <a href="./eatingOut.html" target="_blank">
+            <i class="fa-solid fa-pizza-slice"></i> Eating Out</a
+          >
+        </div>
+        <div class="link">
+          <a href="./walks.html" target="_blank"
+            ><i class="fa-solid fa-person-hiking"></i> Walks</a
+          >
+        </div>
+        <div class="link">
+          <a href="./daysOut.html" target="_blank">
+            <i class="fa-solid fa-calendar-days"></i> Days Out</a
+          >
+        </div>
+        <div class="link">
+          <a href="./holidays.html" target="_blank"
+            ><i class="fa-solid fa-suitcase"></i> Holidays</a
+          >
+        </div>
+      </div>
     </section>
 
     <!--Footer-->

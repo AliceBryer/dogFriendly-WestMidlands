@@ -20,9 +20,9 @@ font-family: 'Roboto', sans-serif; */
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 25px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 .navigation a:hover {
   background-color: var(--sunray);
@@ -75,21 +75,31 @@ html {
 .section-links {
   height: 300px;
   background-color: var(--metallic-seaweed);
+}
+
+.link-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.link-button {
+.link {
   font-family: "Heebo", sans-serif;
   border: 0.5rem var(--brick-red) solid;
   border-radius: 20px;
   margin: 20px;
   padding: 20px;
   width: 20rem;
-  height: 7rem;
+  height: 5rem;
   font-size: 2rem;
   background-color: var(--indigo-dye);
   color: white;
+  text-align: center;
+}
+
+.link-container i {
+  color: white;
+  margin-right: 2rem;
+  font-size: 4rem;
 }
