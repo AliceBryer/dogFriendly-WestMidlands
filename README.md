@@ -5,13 +5,6 @@ A guide to tried &amp; tested dog friendly places in the west midlands. Built us
 This is a personal project created by myself and is a a blog style website.
 
 /_ CSS HEX _/
---charcoal: #264653ff;
---persian-green: #2a9d8fff;
---maize-crayola: #e9c46aff;
---sandy-brown: #f4a261ff;
---burnt-sienna: #e76f51ff;
-
-/_ CSS HEX _/
 --sunray: #edae49ff;
 --brick-red: #d1495bff;
 --metallic-seaweed: #00798cff;

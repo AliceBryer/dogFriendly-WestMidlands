@@ -1,0 +1,29 @@
+:root {
+  --sunray: #edae49ff;
+  --brick-red: #d1495bff;
+  --metallic-seaweed: #00798cff;
+  --lapis-lazuli: #30638eff;
+  --indigo-dye: #003d5bff;
+}
+
+/* Navigation styling */
+.navigation {
+  background-color: var(--indigo-dye);
+  overflow: hidden;
+}
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navigation a:hover {
+  background-color: var(--sunray);
+  color: black;
+}
+.navigation a.active {
+  background-color: var(--metallic-seaweed);
+  color: white;
+}
