@@ -5,9 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Murphy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body>
-    Do you have a suggestion of where Murphy can visit next? Let us know in the
-    contact form below!
+  <body class="contactPage-body">
+    <!--NavBar/Header-->
+    <div class="navigation">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="#contact" class="active">Contact Murphy</a>
+    </div>
+    <h1 class="contact-title">CONTACT MURPHY</h1>
+    <section class="contact-page-container">
+      <!--contact form-->
+      <div class="contact-form">
+        <div id="name-box">Name goes here</div>
+        <div id="message-box">Message goes here</div>
+        <button id="send-btn">
+          Send <i class="fa-solid fa-envelope-circle-check"></i>
+        </button>
+      </div>
+      <div class="contact-content">
+        <div class="murphys-message">
+          <p>
+            I live in the Cannock area of Staffordshire, and I'm lucky enough
+            both my pawrents drive, as well as us living 5 minutes from a train
+            station.
+          </p>
+
+          <p>
+            I am looking for adventures anywhere in the West Midlands but will
+            happily travel too.
+          </p>
+
+          <p>
+            If you have a suggestion then please contact me using the form to
+            the left.
+          </p>
+
+          <p>Lots of love,</p>
+          <p>Murphy <i class="fa-solid fa-paw"></i></p>
+        </div>
+        <div class="alices-message">
+          <p>
+            If you have any questions about the development of this website you
+            can use the same contact form and you'll reach me (Alice),
+            alternatively you can check out my Github repository for Murphys
+            mission
+            <a href="https://github.com/AliceBryer/dogFriendly-WestMidlands"
+              >here.</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

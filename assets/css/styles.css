@@ -22,6 +22,7 @@ body {
   background-color: var(--indigo-dye);
   overflow: hidden;
   font-family: "Heebo", sans-serif;
+  border-bottom: 5px white solid;
 }
 .navigation a {
   float: left;
@@ -66,7 +67,7 @@ html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../images/croppedChasewaterImage.jpg);
   height: 70%;
   background-position: center;
@@ -239,4 +240,79 @@ html {
 #instagram-link {
   color: var(--lapis-lazuli);
   text-decoration: none;
+}
+
+/* contact page information */
+
+.contactPage-body {
+  background-color: var(--metallic-seaweed);
+}
+
+.contact-title {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.contact-page-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact-form {
+  width: 700px;
+  height: 500px;
+  margin: 30px;
+}
+
+#name-box {
+  width: 400px;
+  border: black solid 3px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Heebo", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#message-box {
+  width: 400px;
+  border: black solid 3px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Heebo", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#send-btn {
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+.contact-content {
+  width: 800px;
+  height: 500px;
+  margin: 30px;
+}
+
+.contact-content p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.alices-message {
+  margin-top: 120px;
+  color: whitesmoke;
 }
