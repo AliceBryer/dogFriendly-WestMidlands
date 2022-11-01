@@ -26,12 +26,20 @@
     <section class="contact-page-container">
       <!--contact form-->
       <div class="contact-form">
-        <div id="name-box">Name goes here</div>
-        <div id="message-box">Message goes here</div>
-        <button id="send-btn">
-          Send <i class="fa-solid fa-envelope-circle-check"></i>
-        </button>
+        <h1>Contact Murphy</h1>
+        <form
+          action="https://formsubmit.co/alicebryer123@gmail.com"
+          method="POST"
+        >
+          <label for="name">Name: <input type="text" id="name-box" /></label>
+          <label for="message"
+            >Your suggestion: <input type="text" id="suggestion-box"
+          /></label>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
+
+      <!-- Message on page  -->
       <div class="contact-content">
         <div class="murphys-message">
           <p>

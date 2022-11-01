@@ -316,3 +316,9 @@ html {
   margin-top: 120px;
   color: whitesmoke;
 }
+
+/* eating out page css  */
+
+.eating-out-page {
+  background-color: var(--grey);
+}
