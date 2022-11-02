@@ -36,12 +36,21 @@
 
           <!--Disable captcha-->
           <input type="hidden" name="_captcha" value="false" />
+          <!--success message link-->
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/success.html"
+          />
           <label for="name"
-            >Name: <input type="text" id="name-box" name="name"
+            >Name: <input type="text" id="name-box" name="Name" required
+          /></label>
+          <label for="email"
+            >Email: <input type="text" id="email-box" name="Email" required
           /></label>
           <label for="message"
             >Your suggestion:
-            <input type="text" id="suggestion-box" name="suggestion"
+            <input type="text" id="suggestion-box" name="Suggestion" required
           /></label>
           <input type="submit" value="Submit" />
         </form>
