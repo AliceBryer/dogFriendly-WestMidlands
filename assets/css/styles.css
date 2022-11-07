@@ -319,3 +319,57 @@ html {
 .eating-out-page {
   background-color: var(--grey);
 }
+
+.all-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  background: rgba(0, 0, 0.2, 0.2);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.eating-out-info {
+  width: 800px;
+  margin: 20px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.eating-out-info a {
+  text-decoration: none;
+  color: var(--sunray);
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.eating-out-images {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.paw-rating i {
+  padding-right: 6px;
+  color: var(--sunray);
+}
+
+#last-paw {
+  color: white;
+}
