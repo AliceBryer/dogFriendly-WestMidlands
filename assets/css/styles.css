@@ -265,56 +265,53 @@ html {
   justify-content: space-evenly;
 }
 
-.contact-form {
-  width: 700px;
+.contact-content {
+  width: 500px;
   height: 500px;
   margin: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0.2, 0.2);
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.form {
+  margin: 20px;
+  padding: 20px;
+  width: 40rem;
+  color: white;
+  font-size: 20px;
+  background: rgba(0, 0, 0.2, 0.2);
+  border-radius: 20px;
 }
 
 #name-box {
-  width: 400px;
-  border: black solid 3px;
+  margin: 10px;
+  font-size: 3rem;
+  border-radius: 7px;
+}
+
+#email-box {
+  margin: 10px;
+  font-size: 3rem;
+  border-radius: 7px;
+}
+
+#suggestion-box {
+  margin: 10px;
+  font-size: 3rem;
+  border-radius: 7px;
+}
+
+.submit-btn {
   margin: 20px;
-  padding: 20px;
+  width: 10rem;
   font-size: 30px;
-  font-family: "Heebo", sans-serif;
-  color: white;
-  text-align: center;
-}
-
-#message-box {
-  width: 400px;
-  border: black solid 3px;
-  margin: 20px;
-  padding: 20px;
-  font-size: 30px;
-  font-family: "Heebo", sans-serif;
-  color: white;
-  text-align: center;
-}
-
-#send-btn {
-  width: 100px;
-  margin: 20px;
-  padding: 20px;
-}
-.contact-content {
-  width: 800px;
-  height: 500px;
-  margin: 30px;
-}
-
-.contact-content p {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Heebo", sans-serif;
-  font-size: 1.4rem;
-  color: white;
-}
-
-.alices-message {
-  margin-top: 120px;
-  color: whitesmoke;
+  border-radius: 15px;
 }
 
 /* eating out page css  */
