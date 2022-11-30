@@ -30,7 +30,7 @@ body {
   text-align: center;
   padding: 14px 25px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 .navigation a:hover {
   background-color: var(--sunray);
@@ -86,13 +86,13 @@ html {
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-style: italic;
   font-family: "Heebo", sans-serif;
 }
 
 .text-paragraph {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: "Heebo", sans-serif;
   font-weight: 500;
 }
@@ -101,7 +101,12 @@ html {
 
 .section-links {
   height: 250px;
+  width: 100%;
   background-color: var(--metallic-seaweed);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .link-container {
@@ -109,18 +114,18 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 95%;
 }
 
 .link {
   font-family: "Heebo", sans-serif;
   border: 0.5rem var(--sunray) solid;
   border-radius: 20px;
-  margin: 20px;
-  margin-top: px;
+  margin: 10px;
   padding: 20px;
-  width: 20rem;
-  height: 5rem;
-  font-size: 2rem;
+  width: 16%;
+  height: 10%;
+  font-size: 1.6rem;
   background-color: var(--indigo-dye);
   text-align: center;
 }
@@ -132,8 +137,8 @@ html {
 
 .link-container i {
   color: white;
-  margin-right: 2rem;
-  font-size: 4rem;
+  margin-right: 0.8rem;
+  font-size: 1.8rem;
 }
 
 /* Gallery page styling */
