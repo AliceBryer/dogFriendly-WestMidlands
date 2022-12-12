@@ -21,6 +21,7 @@ body {
 .navigation {
   background-color: var(--indigo-dye);
   overflow: hidden;
+  height: 10%;
   font-family: "Heebo", sans-serif;
   border-bottom: 5px white solid;
 }
@@ -100,13 +101,14 @@ html {
 /* Links section on homepage */
 
 .section-links {
-  height: 250px;
+  height: 30%;
   width: 100%;
   background-color: var(--metallic-seaweed);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .link-container {
@@ -115,11 +117,12 @@ html {
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 95%;
+  margin-top: 1%;
 }
 
 .link {
   font-family: "Heebo", sans-serif;
-  border: 0.5rem var(--sunray) solid;
+  border: 0.2rem var(--sunray) solid;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
@@ -377,4 +380,60 @@ html {
 
 #last-paw {
   color: white;
+}
+
+/* media queries homepage */
+/* 
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080 */
+
+@media screen and (max-width: 720px) {
+  /* nav bar */
+  .navigation a {
+    display: none;
+  }
+
+  /* hero */
+
+  .hero-image {
+    height: 30%;
+  }
+  .hero-text h1 {
+    font-size: 1rem;
+  }
+
+  .text-paragraph {
+    font-size: 0.6rem;
+  }
+
+  /* page links */
+
+  .section-links {
+    height: 50%;
+    width: 100%;
+  }
+
+  .link-container {
+    width: 85%;
+  }
+
+  .link {
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .link-container i {
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+  }
+
+  /* footer */
 }
