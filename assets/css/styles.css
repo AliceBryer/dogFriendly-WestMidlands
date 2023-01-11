@@ -382,6 +382,71 @@ html {
   color: white;
 }
 
+/* walks page */
+
+.walks-page {
+  background-color: var(--grey);
+}
+
+.walk-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.walk-outer-div {
+  width: 25%;
+  height: 400px;
+  margin: 20px;
+}
+
+.walk-image-container {
+  height: 60%;
+  width: 100%;
+  display: grid;
+}
+
+.arrows {
+  height: 10%;
+  width: 95%;
+  margin: 3px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows i {
+  color: white;
+  font-size: 2rem;
+  padding: 3px;
+}
+
+.arrows i:hover {
+  cursor: pointer;
+}
+
+.walk-descriptive-details {
+  height: 40%;
+  background-color: var(--indigo-dye);
+  width: 100%;
+}
+
+.walk-title {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.walk-descriptive-details p {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  margin-left: 0.5rem;
+}
+
 /* media queries homepage */
 /* 
 Mobile: 360 x 640.
